@@ -13,5 +13,16 @@ https://www.youtube.com/watch?v=YGs438aJtZg
   
 second part steps # packer/terraform/ansible to setup jenkins
 https://www.youtube.com/watch?v=FfPkcdpIhJ4
+  create packer file to build azure image which will use for jenkins vm # vm contains, vault/terraform/docker in it
+  create tf to craeate instnace using this image in az
+  ansible to pull doker image and run that image in that instanace
+
+
+
+third part steps # vault secure cred for app
+https://youtu.be/5Y-EeH_j47I
+
+
+forth part steps # ci/cd for infr and apps
 
   
