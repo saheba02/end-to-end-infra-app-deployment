@@ -1,0 +1,15 @@
+first part steps #
+  create azure cred # subid/tenid/clienid/clisec
+  create azure secret engine with those cred, and cretae azure role with contributor and use with vault role
+  - tf azurerm_resource_group (samg-jenkins)
+  - tf vault_azure_secret_backend (azure)
+  - tf vault_azure_secret_backend_role (jenkins)
+  generate sample az cred to check
+  - vault read azure/creds/jenkins
+  this will provide clientid and clientsec which will be used for all next operation
+  this cred is "contributor" role under azure rg "samg-jenkins"
+  so rest of all objects will be created under that rg with this cred
+  
+second part steps #
+
+  
